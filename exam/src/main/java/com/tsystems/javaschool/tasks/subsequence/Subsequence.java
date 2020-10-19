@@ -34,7 +34,7 @@ public class Subsequence {
                 }
             }
         }
-        return x.size() == count ? true : false;
+        return x.size() == count ? true : false; 
 
     }
 }
