@@ -36,7 +36,7 @@ public class Calculator {
             for (String x : expression) System.out.print(x + " ");
             System.out.println();
             System.out.println(calc(expression).toString());
-        }
+        } 
         try {
             result = calc(expression);
         }catch (NullPointerException e){
