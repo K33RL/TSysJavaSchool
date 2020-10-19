@@ -32,7 +32,7 @@ public class PyramidBuilder {
             count = count + rows;
             rows++;
             cols = cols + 2;
-        }
+        } 
         rows = rows - 1;//Актуальное число строк
         cols = cols - 2;//Актуальное число столбцов
 
